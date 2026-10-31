@@ -112,14 +112,3 @@ Requisitos: Java 17+ y Maven 3.9.x.
 
 Ejemplo: `{"clienteEmail":"ana@correo.com","tipoCliente":"VIP","subtotal":100000}` → `201` con `descuento=15000`, `iva=16150`, `total=101150`.
 
-## Capturas de pantalla
-### Parte 1
-![Checkpoint 1 - DTOs y PedidoRepository (mvn compile)](capturas/compilacion.png)
-![Checkpoint 2 - Service con DIP, la app inicia](capturas/checkpoint2-service-dip.png)
-![Checkpoint 3 - Strategy: VIP, MAYORISTA y REGULAR](capturas/checkpoint3-strategy.png)
-![POST exitoso con descuento aplicado segun tipoCliente](capturas/post-exitoso.png)
-### Parte 2
-![Respuestas 404 y 400 con ApiError](capturas/errores-api.png)
-![Logs en consola con formato SLF4J](capturas/logs-consola.png)
-![Archivo logs/pedidos.log](capturas/logs-archivo.png)
-![Swagger UI con endpoints documentados](capturas/swagger-ui.png)
